@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="test.js" defer></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">
+            <img src ="My project.png" class="logo" alt="">
+          </a>
+          <!--  class="image-center" -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              <a class="nav-link" href="test.html">Calculator</a>
+              <a class="nav-link" href="alternatives.html">Alternatives</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+     <!-- Transitioning -->
+      <div class="container1">
+        <h2 class="text">Calculator</h2>
+      </div>
+
+
+
+      <div class ="main-container">
+   
+    <div id = "input-container">
+      <div class ="container-input">
+        <div id = "gender-row">
+          <p onclick = "clickedMale()" id = "male">Male</p>
+          <p onclick = "clickedFemale()" id = "female">Female</p>
+      </div>
+      </div>
+      <div id = "input-container">
+        <label for="height-input">Weight (lbs):</label>
+        <input title = "weight" type="text" id = "weight-input"> </input>
+        <label for="height-input">Age:</label>
+        <input title = "age" type="text" id = "age-input"></input>
+        <label for="height-input">Height (ft):</label>
+        <input title = "height" type="text" id = "height-input"></input>
+        <label for="height-input">Food:</label>
+        <input title = "food" type="text" id = "text-input"></input>
+    </div>
+       
+
+
+
+        <!-- <label for="weight-input">Weight:</label>
+<input title = "weight" type="text" id = "weight-input"required
+        minlength="4" maxlength="12" size="4">
+
+        <label for="age-input">Age:</label>
+        <input title = "weight" type="text" id = "weight-input"required
+                minlength="4" maxlength="12" size="10">
+
+                <label for="height-input">Height:</label>
+                <input title = "weight" type="text" id = "weight-input"required
+                        minlength="4" maxlength="8" size="10">     
+                        <label for="food-input">Food:</label>
+                        <input title = "weight" type="text" id = "weight-input"required
+                                minlength="4" maxlength="12" size="10"> -->
+                                
+            <div class ="center-button">
+              <p id = "submit-button" onclick = "submitFood()" > Submit </p>
+
+              <!-- <p id = "completed-text"></p> -->
+          </div>
+                              </div>
+                            </div>
+
+                            <p id = "completed-text"></p>
+
+                            <p id = "estimated-life"></p>
+
+        <!-- <input title = "age" type="text" id = "age-input">Age</input>
+        <input title = "height" type="text" id = "height-input">Height</input>
+        <input title = "food" type="text" id = "text-input">Food</input> -->
+
+       
+    </div>
+    <!-- <p id = "submit-button" onclick = "submitFood()" > Submit </p> -->
+
+    <!-- <div id = "gender-row">
+      <p onclick = "clickedMale()" id = "male">Male</p>
+      <p onclick = "clickedFemale()" id = "female">Female</p>
+  </div>
+
+
+  <div id = "input-container">
+      <input title = "weight" type="text" id = "weight-input">weight(lbs): </input>
+      <input title = "age" type="text" id = "age-input">Age: </input>
+      <input title = "height" type="text" id = "height-input">Height(ft): </input>
+      <input title = "food" type="text" id = "text-input">Food: </input>
+  </div>
+
+
+  <p id = "submit-button" onclick = "submitFood()" > Submit </p>
+
+  <p id = "completed-text"></p> -->
+
+    
+</body>
+</html>
